@@ -12,6 +12,6 @@ module.exports = {
     twitter: 'https://twitter.com/AdityaP46042825',
     linkedin: 'https://linkedin.com/in/aditya-prajapati-129716101',
   },
-  pathPrefix: '/blog_sy3rman',
+  pathPrefix: '/blogs',
   siteUrl: 'https://syn3rman.github.io/blogs/',
 };
