@@ -26,20 +26,20 @@ workbox.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-2194950d169d77f24b26.js"
+    "url": "webpack-runtime-0364eecbdd10a2dae34b.js"
   },
   {
     "url": "framework-75da9754c2a76bbaf08a.js"
   },
   {
-    "url": "app-c1cfec92dfec45a61001.js"
+    "url": "app-e3c0d36cec0639b3a7ae.js"
   },
   {
     "url": "component---node-modules-gatsby-plugin-offline-app-shell-js-e385def15e29b6ed02a7.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "8cfce35f4c1035da5c6f4fb74cf1ef7e"
+    "revision": "99e933d65a511a0879d91f36152d0c9a"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
@@ -47,11 +47,11 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "db467664816072d1847a0bc41c8b3cd6"
+    "revision": "c939aa257276d2125da063f120274659"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "ee7143e3bc2395e9d9f0991afa845665"
+    "revision": "608ac89947252bb6249ddce48ba2cc7f"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
@@ -70,12 +70,12 @@ const { NavigationRoute } = workbox.routing
 
 const navigationRoute = new NavigationRoute(async ({ event }) => {
   let { pathname } = new URL(event.request.url)
-  pathname = pathname.replace(new RegExp(`^/blog_sy3rman`), ``)
+  pathname = pathname.replace(new RegExp(`^/blog-syn3rman`), ``)
 
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/blog_sy3rman/app-c1cfec92dfec45a61001.js`))) {
+  if (!resources || !(await caches.match(`/blog-syn3rman/app-e3c0d36cec0639b3a7ae.js`))) {
     return await fetch(event.request)
   }
 
@@ -88,7 +88,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
     }
   }
 
-  const offlineShell = `/blog_sy3rman/offline-plugin-app-shell-fallback/index.html`
+  const offlineShell = `/blog-syn3rman/offline-plugin-app-shell-fallback/index.html`
   return await caches.match(offlineShell)
 })
 
