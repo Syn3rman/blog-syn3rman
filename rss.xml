@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[@Syn3rman]]></description><link>https://syn3rman.github.io/blogs</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Jun 2020 08:22:40 GMT</lastBuildDate><item><title><![CDATA[Scraping images from instagram using puppeteer.js]]></title><description><![CDATA[Get started with web scraping with puppeteer.js!]]></description><link>https://syn3rman.github.io/blogs/instacrape/</link><guid isPermaLink="false">https://syn3rman.github.io/blogs/instacrape/</guid><pubDate>Mon, 13 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Get started with web scraping with puppeteer.js!&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Blog]]></title><description><![CDATA[@Syn3rman]]></description><link>https://syn3rman.github.io/blogs</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 02 Jun 2020 08:26:21 GMT</lastBuildDate><item><title><![CDATA[Scraping images from instagram using puppeteer.js]]></title><description><![CDATA[Get started with web scraping with puppeteer.js!]]></description><link>https://syn3rman.github.io/blogs/instacrape/</link><guid isPermaLink="false">https://syn3rman.github.io/blogs/instacrape/</guid><pubDate>Mon, 13 Jan 2020 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;Get started with web scraping with puppeteer.js!&lt;/p&gt;
 &lt;!-- end --&gt;
 &lt;p&gt;Since you have found this article, I am going to assume that you know what web scraping is and want to see puppeteer in action, either before deciding if you should use this library or using this as a follow along tutorial to how to use it. Keeping that in mind, in this article, I will walk you through the code to make a scraper to download the images from a user’s public profile.&lt;/p&gt;
 &lt;p&gt;I recently came across puppeteer.js, a node library that in their own terms:&lt;/p&gt;
@@ -108,12 +108,12 @@ When we entered the lab we were mesmerized by the lighting and the setup that th
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Venue&quot;
         title=&quot;&quot;
-        src=&quot;/blog-syn3rman/static/be203966139c6e2b6b6b8d0cfe490376/29d31/room.jpg&quot;
-        srcset=&quot;/blog-syn3rman/static/be203966139c6e2b6b6b8d0cfe490376/e52aa/room.jpg 175w,
-/blog-syn3rman/static/be203966139c6e2b6b6b8d0cfe490376/70ebb/room.jpg 350w,
-/blog-syn3rman/static/be203966139c6e2b6b6b8d0cfe490376/29d31/room.jpg 700w,
-/blog-syn3rman/static/be203966139c6e2b6b6b8d0cfe490376/9ecec/room.jpg 1050w,
-/blog-syn3rman/static/be203966139c6e2b6b6b8d0cfe490376/d165a/room.jpg 1400w&quot;
+        src=&quot;/blogs/static/be203966139c6e2b6b6b8d0cfe490376/29d31/room.jpg&quot;
+        srcset=&quot;/blogs/static/be203966139c6e2b6b6b8d0cfe490376/e52aa/room.jpg 175w,
+/blogs/static/be203966139c6e2b6b6b8d0cfe490376/70ebb/room.jpg 350w,
+/blogs/static/be203966139c6e2b6b6b8d0cfe490376/29d31/room.jpg 700w,
+/blogs/static/be203966139c6e2b6b6b8d0cfe490376/9ecec/room.jpg 1050w,
+/blogs/static/be203966139c6e2b6b6b8d0cfe490376/d165a/room.jpg 1400w&quot;
         sizes=&quot;(max-width: 700px) 100vw, 700px&quot;
       /&gt;
     &lt;/span&gt;
@@ -162,10 +162,10 @@ As setting up the VM had taken us longer than we had originally anticipated, we 
         style=&quot;width: 100%; height: 100%; margin: 0; vertical-align: middle; position: absolute; top: 0; left: 0; box-shadow: inset 0px 0px 0px 400px white;&quot;
         alt=&quot;Team Probably&quot;
         title=&quot;&quot;
-        src=&quot;/blog-syn3rman/static/2fec792da5bee96dc12bd70ee66fa06e/2fd48/winners.png&quot;
-        srcset=&quot;/blog-syn3rman/static/2fec792da5bee96dc12bd70ee66fa06e/4edbd/winners.png 175w,
-/blog-syn3rman/static/2fec792da5bee96dc12bd70ee66fa06e/13ae7/winners.png 350w,
-/blog-syn3rman/static/2fec792da5bee96dc12bd70ee66fa06e/2fd48/winners.png 508w&quot;
+        src=&quot;/blogs/static/2fec792da5bee96dc12bd70ee66fa06e/2fd48/winners.png&quot;
+        srcset=&quot;/blogs/static/2fec792da5bee96dc12bd70ee66fa06e/4edbd/winners.png 175w,
+/blogs/static/2fec792da5bee96dc12bd70ee66fa06e/13ae7/winners.png 350w,
+/blogs/static/2fec792da5bee96dc12bd70ee66fa06e/2fd48/winners.png 508w&quot;
         sizes=&quot;(max-width: 508px) 100vw, 508px&quot;
       /&gt;
     &lt;/span&gt;
