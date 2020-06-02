@@ -1,17 +1,17 @@
 module.exports = {
-  title: 'Dev Blog', // Required
-  author: 'Ryan Fitzgerald', // Required
-  description: 'Full-stack Web Developer',
+  title: 'Blog', // Required
+  author: 'Aditya Prajapati', // Required
+  description: '@Syn3rman',
   primaryColor: '#3498db', // Required
   showHeaderImage: true,
   showShareButtons: true,
   postsPerPage: 5, // Required
   social: {
-    website: 'https://ryanfitzgerald.ca',
-    github: 'https://github.com/ryanfitzgerald',
-    twitter: 'https://twitter.com/ryanafitzgerald',
-    linkedin: 'https://ca.linkedin.com/in/ryanafitzgerald',
+    website: 'https://syn3rman.github.io/',
+    github: 'https://github.com/Syn3rman',
+    twitter: 'https://twitter.com/AdityaP46042825',
+    linkedin: 'https://linkedin.com/in/aditya-prajapati-129716101',
   },
-  pathPrefix: '/devblog',
-  siteUrl: 'https://ryanfitzgerald.github.io/devblog/',
+  pathPrefix: '/blog_sy3rman',
+  siteUrl: 'https://syn3rman.github.io/blogs/',
 };
